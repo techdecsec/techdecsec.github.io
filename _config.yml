@@ -73,7 +73,7 @@ share-links-active:
 url-pretty: "https://webee.technion.ac.il/people/ittay/"
 
 # Create a "tags" index page and make tags on each post clickable
-link-tags: true
+#link-tags: true
 
 # Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 100
