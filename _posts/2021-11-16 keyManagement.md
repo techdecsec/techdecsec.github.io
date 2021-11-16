@@ -1,14 +1,14 @@
 ---
 published: false
 layout: post
-title: Key Management
+title: Your Digital Assets Can Be Safer
 subtitle: Ittay Eyal
 gh-repo: daattali/beautiful-jekyll
-tags: [game-theory, cryptocurrency, DoS]
+tags: [authentication, cryptocurrency]
 comments: false
 ---
 
-[attacks](https://diode.io/blockchain/how-blockquick-super-light-client-protocol-can-help-mitigate-eclipse-attacks-19161/)
+[wallet designer](https://walletdesign.dev/)
 **Background**
 ![](/assets/img/bdos_2.png)
 
