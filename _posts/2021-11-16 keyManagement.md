@@ -8,6 +8,10 @@ tags: [game-theory, cryptocurrency, DoS]
 comments: false
 ---
 
+[attacks](https://diode.io/blockchain/how-blockquick-super-light-client-protocol-can-help-mitigate-eclipse-attacks-19161/)
+**Background**
+![](/assets/img/bdos_2.png)
+
 TL;DR We have discovered a denial-of-service attack on Bitcoin-like blockchains that is much cheaper than previously described attacks. Such blockchains rely on incentives to provide security. We show how an attacker can disrupt those incentives to cause rational miners to stop mining. Technical report [here](https://arxiv.org/abs/1912.07497).
 Original blog post [here](https://medium.com/coinmonks/bdos-blockchain-denial-of-service-385c8c56b401).
 
@@ -19,7 +23,7 @@ Denial of service (DoS) attacks have been plaguing the Internet since its early 
 
 Cryptocurrencies like Bitcoin are a particularly lucrative target for a DoS attack. In principle, futures markets and margin trading allow an attacker to short-sell a cryptocurrency, reaping a profit by crashing the currency’s price. Competing cryptocurrencies and governments worried about the impact of cryptocurrencies on financial sovereignty are other potential attackers. To the best of our knowledge, however, in practice no successful DoS attacks have been made against prominent cryptocurrencies.
 
-The reason is the _decentralized_ nature of blockchain protocols. In a blockchain, there is no central server to attack. The machines operating a blockchain, called _miners_, all fully replicate the blockchain data. While [attacks](https://diode.io/blockchain/how-blockquick-super-light-client-protocol-can-help-mitigate-eclipse-attacks-19161/) [against](https://bitcoinmagazine.com/articles/researchers-explore-eclipse-attacks-ethereum-blockchain/) [individual](https://medium.com/speaking-frankly/eclipse-attacks-on-bitcoin-s-peer-to-peer-network-e0da797302c2) [machines](http://hackingdistributed.com/2017/05/01/bgp-attacks-on-btc/) have been known, a complete shutdown or even compromise of several machines have little effect on the availability of the system as a whole.
+The reason is the _decentralized_ nature of blockchain protocols. In a blockchain, there is no central server to attack. The machines operating a blockchain, called _miners_, all fully replicate the blockchain data. While  [against](https://bitcoinmagazine.com/articles/researchers-explore-eclipse-attacks-ethereum-blockchain/) [individual](https://medium.com/speaking-frankly/eclipse-attacks-on-bitcoin-s-peer-to-peer-network-e0da797302c2) [machines](http://hackingdistributed.com/2017/05/01/bgp-attacks-on-btc/) have been known, a complete shutdown or even compromise of several machines have little effect on the availability of the system as a whole.
 
 **Even funner fact**: Bitcoin’s peer-to-peer network is built for robustness against attacks, [taking lessons from botnets](https://www.usenix.org/node/190891) built to be resilient to counterattacks from anti-malware companies.
 
