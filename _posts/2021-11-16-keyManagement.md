@@ -1,6 +1,5 @@
 ---
-published: true
-future: true 
+published: false
 layout: post
 title: Your Digital Assets Can Be Safer
 subtitle: Ittay Eyal
@@ -41,16 +40,19 @@ With three keys things become even more interesting, (8% theft probability):
 
 A critical question when designing a wallet is how many keys to choose. 
 The figure below shows that the exponential reduction in failure probability makes quantity more important than quality. 
-Six (6) keys with a loss probability of 3% result in an order-of-magnitude safer wallet than three (3) keys with a loss probability of 1% (all keys have a theft probability of 1%): 
+Six (6) keys with a loss probability of 3% result in an order-of-magnitude safer wallet than three (3) keys with a loss probability of 1% each (all keys have a theft probability of 1%): 
 
 ![](/assets/img/keyManagement-exp22-manyKeys-lost01-03-stolen01.png
 )
 
 **Calculator** 
-  
-You can experiment with the model by evaluating different wallets using the calculator we provide <a href=”xxx”>here</a> (disclaimer and fine print below). Enter the probabilities for the keys, design a wallet, and see its failure probability. You can also  click to find the optimal one for up to 4 keys. 
+
+You can experiment with the model by evaluating different wallets using our [wallet designer](https://github.com/ZenGo-X/crypto-key-calculator). 
+Enter the probabilities for the keys, design a wallet, and see its failure probability. You can also click to find the optimal wallet for up to 4 keys. 
 
 A couple of points about the calculator: 
-This is for gaining intuition and experimenting with the model. Not for real money. 
-The calculator runs locally on your browser. 
-The code is [here](https://github.com/ZenGo-X/crypto-key-calculator), courtesy of Zengo, developed by Shalev Keren ([@shalev0s](https://twitter.com/shalev0s)), and we appreciate any contributions and comments. 
+* This is for gaining intuition and experimenting with the model. Not for real money. 
+* The calculator runs locally on your browser. 
+* The code is [here], courtesy of Zengo, developed by Shalev Keren ([@shalev0s](https://twitter.com/shalev0s)). 
+
+We appreciate any contributions and comments. 
