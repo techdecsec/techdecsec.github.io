@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Your Digital Assets Can Be Safer
 subtitle: Ittay Eyal
