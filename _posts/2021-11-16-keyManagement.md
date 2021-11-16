@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Your Digital Assets Can Be Safer
 subtitle: Ittay Eyal
@@ -32,18 +32,17 @@ So we can try all the possible wallets and use the one that results in the lowes
 
 Nonetheless we discover some interesting results in the feasible range. For example, with just two keys, if there is a positive theft probability (1% in the figure below), then if the loss and leak probabilities are similar the optimal wallet is using just one key and not both. 
 
-![](/assets/img/keyManagement-exp21-twoKeys-best.png)
+![](/assets/img/keyManagement-exp21-twoKeys-best.png){: height="250" }
 
 With three keys things become even more interesting, (8% theft probability): 
 
-![](/assets/img/keyManagement-exp06-threeKeyPlotkey3-step0.001-stolen0.080-lostMax1.000-leakedMax1.000.png)
+![](/assets/img/keyManagement-exp06-threeKeyPlotkey3-step0.001-stolen0.080-lostMax1.000-leakedMax1.000.png){: height="250" }
 
 A critical question when designing a wallet is how many keys to choose. 
 The figure below shows that the exponential reduction in failure probability makes quantity more important than quality. 
 Six (6) keys with a loss probability of 3% result in an order-of-magnitude safer wallet than three (3) keys with a loss probability of 1% each (all keys have a theft probability of 1%): 
 
-![](/assets/img/keyManagement-exp22-manyKeys-lost01-03-stolen01.png
-)
+![](/assets/img/keyManagement-exp22-manyKeys-lost01-03-stolen01.png){: height="250" }
 
 **Calculator** 
 
