@@ -39,7 +39,7 @@ With three keys things become even more interesting, (8% theft probability):
 ![](/assets/img/keyManagement-exp06-threeKeyPlotkey3-step0.001-stolen0.080-lostMax1.000-leakedMax1.000.png){: height="250" }
 
 A critical question when designing a wallet is how many keys to choose. 
-The figure below shows that the exponential reduction in failure probability makes quantity more important than quality. 
+The figure below shows that the exponential decrease of failure probability makes quantity more important than quality. 
 Six (6) keys with a loss probability of 3% result in an order-of-magnitude safer wallet than three (3) keys with a loss probability of 1% each (all keys have a theft probability of 1%): 
 
 ![](/assets/img/keyManagement-exp22-manyKeys-lost01-03-stolen01.png){: height="250" }
