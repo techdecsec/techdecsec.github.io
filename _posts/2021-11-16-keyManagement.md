@@ -52,6 +52,6 @@ Enter the probabilities for the keys, design a wallet, and see its failure proba
 A couple of points about the calculator: 
 * This is for gaining intuition and experimenting with the model. Not for real money. 
 * The calculator runs locally on your browser. 
-* The code is [here], courtesy of Zengo, developed by Shalev Keren ([@shalev0s](https://twitter.com/shalev0s)). 
+* The code is [here](https://github.com/ZenGo-X/crypto-key-calculator), courtesy of Zengo, developed by Shalev Keren ([@shalev0s](https://twitter.com/shalev0s)). 
 
 We appreciate any contributions and comments. 
