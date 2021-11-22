@@ -46,7 +46,7 @@ Six (6) keys with a loss probability of 3% result in an order-of-magnitude safer
 
 **Calculator** 
 
-You can experiment with the model by evaluating different wallets using our [wallet designer](https://github.com/ZenGo-X/crypto-key-calculator). 
+You can experiment with the model by evaluating different wallets using our [wallet designer](https://walletdesign.dev/). 
 Enter the probabilities for the keys, design a wallet, and see its failure probability. You can also click to find the optimal wallet for up to 4 keys. 
 
 A couple of points about the calculator: 
