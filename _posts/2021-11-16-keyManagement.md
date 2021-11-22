@@ -14,7 +14,7 @@ Digital assets are secured (almost exclusively) with cryptographic signing keys.
 
 But how many keys should one use, what type, and how does one design her wallet? We took some first steps towards answering these questions, starting with a simple model and basic analysis that very quickly reveals surprising results. We start with the basic (natural, but new) definitions and outline our results. 
 
-If you are interested in the details see the paper [here](https://webee.technion.ac.il/people/ittay/publications/keyManagement.pdf). You can also play with our online [wallet designer](https://walletdesign.dev/) (details below). 
+If you are interested in the details see the paper [here](https://eprint.iacr.org/2021/1522.pdf). You can also play with our online [wallet designer](https://walletdesign.dev/) (details below). 
 
 **Reasoning about key faults** 
 
