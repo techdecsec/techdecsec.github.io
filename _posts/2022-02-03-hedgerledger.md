@@ -60,10 +60,8 @@ Well, this future-price-prediction-or-we-go-out-of-business is not unique to cry
 For example, airlines are dependent on the rather-volatile oil prices, where a price spike can put them in a hole.
 To overcome this volatility, airlines and oil suppliers often engage in a _hedging contract_, where they agree on a deal at future time frame for a predetermined price.
 
-
-
 <div style="text-align:center">
-{% include image.html url="IttayEyal.github.io_2.jpg" description="Another Type of Hedging [<a href='https://www.treasuryandrisk.com/2017/07/13/new-hedge-accounting-standard-flashes-green-light/'>source</a>]." %}
+{% include image.html url="/assets/img/ledgerHedger_2.jpg" description="Another Type of Hedging [<a href='https://www.treasuryandrisk.com/2017/07/13/new-hedge-accounting-standard-flashes-green-light/'>source</a>]." %}
 </div>
 
 Could this resolve our future gas needs in a blockchain? 
