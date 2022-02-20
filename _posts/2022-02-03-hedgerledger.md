@@ -48,7 +48,7 @@ But, what if you want your transaction to be included in a future block interval
 How can you predict the market price a week ahead?
 And what happens if you miss?
 
-![](/assets/img/ledgerHedger_1.png){: style="float: center}
+![](/assets/img/ledgerHedger_1.png){: style="float: center}{:class="img-responsive"}
 <!-- ![](/assets/img/ledgerHedger_1.png){: style="float: right; height: 65%; width: 65%; margin-left: 1em; margin-top: 2em;"}{:class="img-responsive"} -->
 
 <!-- <div style="text-align:center">
