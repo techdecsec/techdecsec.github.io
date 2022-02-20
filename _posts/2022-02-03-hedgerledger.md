@@ -48,12 +48,9 @@ But, what if you want your transaction to be included in a future block interval
 How can you predict the market price a week ahead?
 And what happens if you miss?
 
-<!-- ![](/assets/img/ledgerHedger_1.png) -->
-
 <div style="text-align:center">
 {% include image.html url="/assets/img/ledgerHedger_1.png" description="Unlike Internet quotes, transactions can be confirmed (for a sufficient fee) [<a href='https://www.someecards.com/usercards/viewcard/MjAxMi04NTdhYjEzNjE2MTZmM2Y0/amp/'>source</a>]." %}
 </div>
-
  
 As it turns out, these questions are more than a theoretical experiment, but actually decisions that system operators face on a daily basis.
 These include any system that relies on its transactions being confirmed in a timely manner, e.g., optimistic and ZK roll-ups, atomic swaps, state channels, contingent payments and so forth. 
@@ -72,7 +69,7 @@ To overcome this volatility, airlines and oil suppliers often engage in a _hedgi
 
 
 <div style="text-align:center">
-{% include image.html url="https://images.treasuryandrisk.com/contrib/content/uploads/sites/411/2017/07/2017-07-12_Hedge-currency_616x372.jpg" description="Another Type of Hedging [<a href='https://www.treasuryandrisk.com/2017/07/13/new-hedge-accounting-standard-flashes-green-light/'>source</a>]." %}
+{% include image.html url="IttayEyal.github.io_2.jpg" description="Another Type of Hedging [<a href='https://www.treasuryandrisk.com/2017/07/13/new-hedge-accounting-standard-flashes-green-light/'>source</a>]." %}
 </div>
 
 
