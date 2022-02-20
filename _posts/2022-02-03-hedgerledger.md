@@ -6,18 +6,13 @@ tags: [hedging, gas, transaction fees, game theory, cryptocurrency, smart contra
 comments: false
 ---
 
-
-
-<ins>TL;DR</ins>: Prominent smart contracts, e.g., roll-ups, critically rely on timely confirmations of their transactions.
+Prominent smart contracts, e.g., roll-ups, critically rely on timely confirmations of their transactions.
 Sadly, that's not how blockchain works, as confirmation times depend on transactions fees, where the required fee is determined by the volatile fee market.
 We present _LedgerHedger_, the first smart contract that facilitates a reservation for a future transaction confirmation. 
 _LedgerHedger_ is secure, incentive-compatible, and has low overhead for practical future-transaction parameters.
 
-
-
 We start with some blockchain [background](#preliminaries), discuss current transaction confirmation [modus operandi](#a-transaction-just-wants-to-be-confirmed) and its shortcomings, present how [regulated markets](#a-trip-in-regulated-markets) overcome volatility and the inadequacy to blockchains, and present our _LedgerHedger_ [design](#ledgerhedger-design) and [Solidity implementation](#ledgerhedger-solidity-implementation).
 You can find the full details in the [technical report](https://eprint.iacr.org/2022/056).
-
 
 ## Preliminaries 
 
@@ -42,7 +37,6 @@ The varying demand results with a volatile market price, which can even double i
 Now, say you are an Ethereum user and you want your transaction confirmed in the next block.
 For that, your offered fee simply needs to meet the market price, which you can quite easily determine for the next block using services like the [gas station](https://ethgasstation.info/).
 Follow their advice and you are usually golden.
-
 
 But, what if you want your transaction to be included in a future block interval, say, during a specific afternoon next Thursday? 
 How can you predict the market price a week ahead?
@@ -71,8 +65,6 @@ To overcome this volatility, airlines and oil suppliers often engage in a _hedgi
 <div style="text-align:center">
 {% include image.html url="IttayEyal.github.io_2.jpg" description="Another Type of Hedging [<a href='https://www.treasuryandrisk.com/2017/07/13/new-hedge-accounting-standard-flashes-green-light/'>source</a>]." %}
 </div>
-
-
 
 Could this resolve our future gas needs in a blockchain? 
 Can we have hedging in cryptocurrencies?
@@ -122,12 +114,10 @@ Considering a practical value of [10M](https://etherscan.io/tx/0x90ebd9630d98d5b
 
 We bring the full analysis, implementation and deployment details in our [technical report](https://eprint.iacr.org/2022/056).
 You can also find the contract code in our [repository](https://github.com/amanusk/LedgerHedger-contracts).
+This post also appears in [Itay Tsabary's site](https://itaytsabary.github.io/2022-02-03-ledgerhedger/). 
 
 **Use _LedgerHedger_ at your own risk. We did not have _LedgerHedger_ audited. We take no responsibility for any possible vulnerability, error, technical issue or bug.**
-
-
 
 <a href="https://twitter.com/ItayTsabary" class="twitter-follow-button" data-show-count="false">Follow @ItayTsabary</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <br/>
 <a href="https://twitter.com/amanusk_" class="twitter-follow-button" data-show-count="false">Follow @Amanusk</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <br/>
 <a href="https://twitter.com/IttayEyal" class="twitter-follow-button" data-show-count="false">Follow @IttayEyal</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
