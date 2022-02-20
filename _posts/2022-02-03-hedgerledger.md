@@ -48,6 +48,8 @@ But, what if you want your transaction to be included in a future block interval
 How can you predict the market price a week ahead?
 And what happens if you miss?
 
+![Unlike Internet quotes, transactions can be confirmed (for a sufficient fee)](/assets/img/ledgerHedger_1.png)
+
 <div style="text-align:center">
 {% include image.html url="https://cdn.someecards.com/someecards/usercards/1342770349241_7941934.png" description="Unlike Internet quotes, transactions can be confirmed (for a sufficient fee) [<a href='https://www.someecards.com/usercards/viewcard/MjAxMi04NTdhYjEzNjE2MTZmM2Y0/amp/'>source</a>]." %}
 </div>
