@@ -48,12 +48,14 @@ But, what if you want your transaction to be included in a future block interval
 How can you predict the market price a week ahead?
 And what happens if you miss?
 
-![](/assets/img/ledgerHedger_1.png)
+![](/assets/img/ledgerHedger_1.png){: style="float: center}
+<!-- ![](/assets/img/ledgerHedger_1.png){: style="float: right; height: 65%; width: 65%; margin-left: 1em; margin-top: 2em;"}{:class="img-responsive"} -->
 
-<div style="text-align:center">
+<!-- <div style="text-align:center">
 {% include image.html url="https://cdn.someecards.com/someecards/usercards/1342770349241_7941934.png" description="Unlike Internet quotes, transactions can be confirmed (for a sufficient fee) [<a href='https://www.someecards.com/usercards/viewcard/MjAxMi04NTdhYjEzNjE2MTZmM2Y0/amp/'>source</a>]." %}
 </div>
-
+ -->
+ 
 As it turns out, these questions are more than a theoretical experiment, but actually decisions that system operators face on a daily basis.
 These include any system that relies on its transactions being confirmed in a timely manner, e.g., optimistic and ZK roll-ups, atomic swaps, state channels, contingent payments and so forth. 
 Even more crucially, the safety and liveness guarantees of these systems rely on a timely confirmation of their transactions; failing in that can result with significant cryptocurrency thefts. 
