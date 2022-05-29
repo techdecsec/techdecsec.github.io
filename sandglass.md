@@ -7,9 +7,11 @@ comments: false
 ---
 
 Classical consensus algorithms are _permissioned_. They allow a set of identified (authenticated) machines (nodes) to each _decide_ on a value, with three requirements: 
-_Agreement_: No two machines decide on different values. It is a _Safety_ property – if two nodes decide different values it is violated. 
-_Termination_: All nodes decide. It is a _Liveness_ property – it is only violated if at least one node never decides. 
-_Validity_: If all nodes initially prefer some value, then that’s the decided value. This is also a safety property; it is necessary for the protocol to be useful, but prevents a trivial solution (“everyone always immediately decide 0”). 
+
+1. _Agreement_: No two machines decide on different values. It is a _Safety_ property – if two nodes decide different values it is violated. 
+2. _Termination_: All nodes decide. It is a _Liveness_ property – it is only violated if at least one node never decides. 
+3. _Validity_: If all nodes initially prefer some value, then that’s the decided value. This is also a safety property; it is necessary for the protocol to be useful, but prevents a trivial solution (“everyone always immediately decide 0”). 
+
 The problem and solution vary depending on network assumptions (synchronous, asynchronous) and node fault types (ommission, crash, Byzantine). 
 
 Nakamoto’s seminal Bitocin paper demonstrated for the first time that it is possible to reach a variant of consensus in a _permissionless_ setting: When and and all servers can join and leave without notice. This is in contrust to classical consensus models, where the set of participants is known and can only be changed by running an explicit reconfiguration protocol. However, this came at a cost – rather than guaranteeing safety and termination properties, Bitcoin only achieves them _with high probability_: there is some small probability $\varepsilon$ that the requirements would be violated, including safety. This applies to all permissionless blockchain protocols we are aware of, both practical and theoretical. 
