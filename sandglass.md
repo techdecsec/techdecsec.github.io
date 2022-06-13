@@ -37,6 +37,10 @@ A node can safely decide a value _v_ after sufficiently many consecutive rounds 
 The keen eye might notice that Sandglass is surprisingly reminiscent of [Ben-Or's classic consensus protocol](https://decentralizedthoughts.github.io/2022-03-30-asynchronous-agreement-part-two-ben-ors-protocol/). However, Ben-Or establishes that it is safe for a node to decide _v_ after having observed two consecutive, unanimous endorsements of _v_. This is because any two majority sets of its fixed set of _n_ nodes will intersect in at least one correct node. 
 This approach is clearly no longer feasible in a permissionless setting, where _n_ is unknown and the set of nodes can change at any time. Instead, Sandglass’s approach to establish safety is inspired by one of the key properties of  Nakamoto's PoW: whatever the value of _n_, whatever the identity of the nodes participating in the protocol at any time,  the synchronously connected majority of good nodes will be faster in increasing priority than the defective nodes. So much faster, that eventually defective nodes either propose the same value as the good nodes, or their priority is so far behind that they cannot affect the good nodes. 
 
+<div style="text-align:center">
+{%include image.html url="https://i.pinimg.com/564x/5d/ea/d0/5dead0a5403ba51c7988315cc795e91a.jpg" description="Sandglass. Image by <a href=’https://www.pinterest.com/mini2014051754/’>Yu ui</a>." %}
+</div>
+
 ## Conclusion
 
 The discovery that deterministic safety is possible in a permissionless setting leads to the question of whether there exists a protocol that also achieves deterministic termination in a hybrid synchronous model. Another natural question is whether there exists a deterministically-safe solution to consensus in a hybrid-synchronous model with Byzantine failures ([Lewis-Pye and Roughgarden](https://arxiv.org/pdf/2101.07095.pdf) have shown that a deterministic-consesus protocol does not exist). Answering these questions might pave the way to a qualitative improvement of permissionless systems that would provide deterministic guarantees; or, at the very least, give us more insight about the nature of consensus. 
@@ -46,3 +50,9 @@ The full details are in our [technical report](https://eprint.iacr.org/2022/XXX)
 Read more in our [technical report](https://eprint.iacr.org/2022/XXX). 
 
 <a href="https://twitter.com/IttayEyal" class="twitter-follow-button" data-show-count="false">Follow @IttayEyal</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+<div style="text-align:center">
+{% include image.html url="/assets/img/ledgerHedger_1.png" description="beautiful image [<a href='https://www.someecards.com/usercards/viewcard/MjAxMi04NTdhYjEzNjE2MTZmM2Y0/amp/'>source</a>]." %}
+</div>
