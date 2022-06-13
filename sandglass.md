@@ -38,7 +38,7 @@ The keen eye might notice that Sandglass is surprisingly reminiscent of [Ben-Or'
 This approach is clearly no longer feasible in a permissionless setting, where _n_ is unknown and the set of nodes can change at any time. Instead, Sandglass’s approach to establish safety is inspired by one of the key properties of  Nakamoto's PoW: whatever the value of _n_, whatever the identity of the nodes participating in the protocol at any time,  the synchronously connected majority of good nodes will be faster in increasing priority than the defective nodes. So much faster, that eventually defective nodes either propose the same value as the good nodes, or their priority is so far behind that they cannot affect the good nodes. 
 
 <div style="text-align:center">
-{%include image.html url="https://i.pinimg.com/564x/5d/ea/d0/5dead0a5403ba51c7988315cc795e91a.jpg" description="Sandglass. Image by <a href=’https://www.pinterest.com/mini2014051754/’>Yu ui</a>." %}
+{%include image.html url="https://i.pinimg.com/564x/5d/ea/d0/5dead0a5403ba51c7988315cc795e91a.jpg" description="Sandglass. Image by [Yu ui](https://www.pinterest.com/mini2014051754/)." %}
 </div>
 
 ## Conclusion
