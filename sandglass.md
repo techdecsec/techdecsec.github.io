@@ -6,7 +6,6 @@ tags: [consensus, permissionless]
 comments: false
 ---
 
-Exec summary 
 Nakamoto's consensus protocol works in a permissionless model, where nodes can join and leave without notice. However,  it guarantees agreement only probabilistically. Is this weaker guarantee a necessary concession to the severe demands of supporting a permissionless model? 
 
 We show that, at least in a benign failure model, it is not. We present _Sandglass_, the first permissionless consensus algorithm that guarantees deterministic agreement and termination with probability 1 under general omission failures. Like Nakamoto, Sandglass adopts a _hybrid synchronous_ communication model, where, at all times, a majority of nodes (though their number is unknown) are correct  and synchronously connected, and allows nodes to join and leave at any time. 
