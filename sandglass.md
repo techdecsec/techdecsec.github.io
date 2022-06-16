@@ -21,7 +21,7 @@ Defying [Betteridge](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlin
 In a technical report we publish today, we show that these weaker probabilistic guarantees do not arise from permissionlessness, but rather from the choice of a probabilistic PoW mechanism: In Bitcoin (and all PoW blockchains), the miners provide only statistical proof they have calculated a certain number of hash functions. The safety of these protocols relies on the majority of computational power generating the majority of blocks; however, with some probability, even a small miner might get lucky and generate the majority of blocks. 
 
 <div style="text-align:right">
-{%include image.html url="https://images.unsplash.com/photo-1633265486501-0cf524a07213?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" description="<p style="color:grey"><small>Sandglass [<a href='https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Towfiqu barbhuiya</a>].</small></p>" %}
+{%include image.html url="https://images.unsplash.com/photo-1633265486501-0cf524a07213?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" description="Sandglass [<a href='https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Towfiqu barbhuiya</a>]" %}
 </div>
 
 ## Sandglass 
