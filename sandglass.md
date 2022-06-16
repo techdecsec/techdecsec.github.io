@@ -20,7 +20,7 @@ Defying [Betteridge](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlin
 
 In a technical report we publish today, we show that these weaker probabilistic guarantees do not arise from permissionlessness, but rather from the choice of a probabilistic PoW mechanism: In Bitcoin (and all PoW blockchains), the miners provide only statistical proof they have calculated a certain number of hash functions. The safety of these protocols relies on the majority of computational power generating the majority of blocks; however, with some probability, even a small miner might get lucky and generate the majority of blocks. 
 
-<div style="text-align:right">
+<div style="text-align:center">
 {%include image.html url="https://images.unsplash.com/photo-1633265486501-0cf524a07213?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" description="Sandglass [<a href='https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Towfiqu barbhuiya</a>]" %}
 </div>
 
@@ -37,7 +37,7 @@ A node can safely decide a value _v_ after sufficiently many consecutive rounds 
 The keen eye might notice that Sandglass is surprisingly reminiscent of [Ben-Or's classic consensus protocol](https://decentralizedthoughts.github.io/2022-03-30-asynchronous-agreement-part-two-ben-ors-protocol/). However, Ben-Or establishes that it is safe for a node to decide _v_ after having observed two consecutive, unanimous endorsements of _v_. This is because any two majority sets of its fixed set of _n_ nodes will intersect in at least one correct node. 
 This approach is clearly no longer feasible in a permissionless setting, where _n_ is unknown and the set of nodes can change at any time. Instead, Sandglass’s approach to establish safety is inspired by one of the key properties of  Nakamoto's PoW: whatever the value of _n_, whatever the identity of the nodes participating in the protocol at any time,  the synchronously connected majority of good nodes will be faster in proceeding to new rounds than the defective nodes that do not communicate with good nodes. So much faster, that eventually defective nodes either propose the same value as the good nodes, or their round is so far behind that they cannot affect the good nodes. 
 
-<div style="text-align:right">
+<div style="text-align:center">
 {%include image.html url="https://i.pinimg.com/564x/5d/ea/d0/5dead0a5403ba51c7988315cc795e91a.jpg" description="Another Sandglass [<a href='htthttps://www.pinterest.com/mini2014051754/'>Yu ui</a>]" %}
 </div>
 
