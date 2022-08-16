@@ -44,7 +44,7 @@ layout: page
         {% assign excerpt_length = site.excerpt_length | default: 50 %}
         {{ post.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
+        {% if post.content != post.excerpt or excerpt_word_count > excerpt_length or post.external_url %}
           {% if post.external_url %}
           <a href="{{ post.external_url }}" class="post-read-more">[Read&nbsp;More&nbsp;on&nbsp;{{ post.external_site }}]</a>
           {% else %}
